@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RFC</title>
+    <link rel="stylesheet" type="text/css" href="ind_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="alert alert-info mt-5" role="alert">
+        <h1 class="text-center">PRACTICA II - RFC</h1>
+    </div>
+
+    <div class="" id="general">
+        <div id="P_nombre">
+            <label>Nombre: </label><br>
+            <input type="text" id="nombre">
+        </div>
+
+        <div id="P_ap_pat">
+            <label>Apellido paterno: </label><br>
+            <input type="text" id="ap_pat">
+        </div>
+
+        <div id="P_ap_mat">
+            <label>Apellido materno: </label><br>
+            <input type="text" id="ap_mat">
+        </div>
+
+        <div id="P_fech_nac">
+            <label id="P_fech_nac">Fecha de nacimiento: </label><br>
+            <input type="date" name="" id="fecha_nac">
+        </div>
+
+        <div id="btn_ejecutar">
+           <button id = "ejecutar">Generar RFC</button>
+        </div>
+
+        <div id="mostrar_RFC">
+            <label> RFC: </label>
+            <input type="text" id="mostrarRFC" placeholder="RFC">
+        </div>
+    </div>
+
+    <div class="alert alert-info mt-5" role="alert">
+        <h1 class="text-center">AJAX - API REST</h1>
+    </div>
+
+    <div class="" id="general2">
+        <div id="btn_consultar">
+            <button id = "consultar">CONSULTAR API REST</button><br>
+         </div>
+
+        <div id="Cnombre">
+            <br><label>Nombre: </label>
+            <br><input type="text" id="C_nombre">          
+        </div>
+        
+        <div id="Correo">
+            <label>Correo: </label>
+            <br><input type="text" id="Ccorreo">
+        </div>
+    
+    </div>
+    <br>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

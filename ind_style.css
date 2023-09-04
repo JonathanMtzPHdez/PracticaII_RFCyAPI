@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+div#general{
+    margin: auto;
+    width: 450px;
+    height:470px;
+    position: relative;
+    background-color:#d2d2d2;;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #808080;
+}
+
+div#general2{
+    margin: auto;
+    width: 300px;
+    height:200px;
+    position: relative;
+    background-color:#d2d2d2;;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #808080;
+    display: grid;
+    place-items: center;
+}
+
+div#P_nombre{
+    height: 70px;
+    width: 250px;
+    margin-left: 50px; 
+    margin-top: 40px;
+    /*margin:  0px auto;*/
+    
+}
+
+div#P_ap_pat,div#P_ap_mat,div#P_fech_nac,div#btn_ejecutar,div#mostrar_RFC{
+    height: 70px;
+    width: 250px;
+    margin-left: 50px; 
+}
